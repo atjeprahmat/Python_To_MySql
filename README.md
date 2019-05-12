@@ -8,17 +8,17 @@ Jika demikian, saya akan menunjukkan kepada Anda cara membuat koneksi seperti it
 
 Tetapi sebelum kita mulai, ini adalah sintaksis generik yang dapat Anda gunakan untuk menghubungkan Python ke MySQL:
 
-  import pymysql
-  db = pymysql.connect(host='localhost', user='root', password='', database='TestDB_Python')
-  cur = db.cursor()
-  cur.execute('SELECT * FROM person')
-  for row in cur.fetchall():
-  print(row)
-  db.close()
+    import pymysql
+    db = pymysql.connect(host='localhost', user='root', password='', database='TestDB_Python')
+    cur = db.cursor()
+    cur.execute('SELECT * FROM person')
+    for row in cur.fetchall():
+    print(row)
+    db.close()
   
 
 Membuat Database:
-  CREATE DATABASE TestDB_Python;
+    CREATE DATABASE TestDB_Python;
 
   USE TestDB_Python;
 
