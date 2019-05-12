@@ -1,4 +1,4 @@
-# Python_To_MySql
+# Cara Menghubungkan Python ke SQL Server menggunakan pymysql
 
 Cara Menghubungkan Python ke MySQL menggunakan pymysql
 
