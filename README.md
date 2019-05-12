@@ -18,18 +18,18 @@ Tetapi sebelum kita mulai, ini adalah sintaksis generik yang dapat Anda gunakan 
   
 
 Membuat Database:
-    CREATE DATABASE TestDB_Python;
+CREATE DATABASE TestDB_Python;
 
-  USE TestDB_Python;
+    USE TestDB_Python;
 
-  CREATE TABLE Person (Name VARCHAR(100), Age INT, City VARCHAR(100));
+    CREATE TABLE Person (Name VARCHAR(100), Age INT, City VARCHAR(100));
 
-  SELECT * FROM Person;
+    SELECT * FROM Person;
 
 
-  INSERT INTO Person VALUES('Jade','20','London'),
-  ('Marry','119','NY'),
-  ('Martin','25','London'),
-  ('Rob','35','Geneva'),
-  ('Maria','42','Paris'),
-  ('Jon','28','Toronto')
+    INSERT INTO Person VALUES('Jade','20','London'),
+    ('Marry','119','NY'),
+    ('Martin','25','London'),
+    ('Rob','35','Geneva'),
+    ('Maria','42','Paris'),
+    ('Jon','28','Toronto')
